@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="gh" fetch="https://github.com" />
+
+    <!-- haydn Device Trees, Kernel & Hardware -->
+    <project name="kichukic/device_xiaomi_haydn" path="device/xiaomi/haydn" remote="gh" revision="rr-17.0" />
+    <project name="kichukic/android_device_xiaomi_sm8350-common" path="device/xiaomi/sm8350-common" remote="gh" revision="rr-17.0" />
+    <project name="kichukic/android_kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350" remote="gh" revision="kic-24.0" />
+    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="gh" revision="lineage-24.0" />
+
+    <!-- Proprietary Vendor Blobs -->
+    <project name="TheMuppets/proprietary_vendor_xiaomi_haydn" path="vendor/xiaomi/haydn" remote="gh" revision="lineage-24.0" />
+    <project name="TheMuppets/proprietary_vendor_xiaomi_sm8350-common" path="vendor/xiaomi/sm8350-common" remote="gh" revision="lineage-24.0" />
+
+    <!-- Camera & Audio Enhancements -->
+    <project name="kichukic/vendor_xiaomi_miuicamera-haydn" path="vendor/xiaomi/miuicamera-haydn" remote="gh" revision="17.0" />
+    <project name="kichukic/hardware_dolby" path="hardware/dolby" remote="gh" revision="main" />
+</manifest>
